@@ -8,8 +8,7 @@ Some information about you!
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
-
+Not sure I'm going to need this page as I want to put this information up front on the home page. 
 ### Contact me
 
 [peter@uchytil.com](mailto:peter@uchytil.com)
