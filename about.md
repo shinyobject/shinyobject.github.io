@@ -6,6 +6,8 @@ permalink: /about/
 
 More information coming soon.
 
+Test of GitHub Mac app.
+
 
 ### Contact me
 
