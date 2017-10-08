@@ -4,20 +4,8 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+More information coming soon.
 
-### More Information
-
-Not sure I'm going to need this page as I want to put this information up front on the home page. 
-
-Still learning about syncing Git.
-
-
-Round 2
-
-Round 3
-
-Round 4
 
 ### Contact me
 
