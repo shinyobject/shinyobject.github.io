@@ -8,6 +8,8 @@ More information coming soon.
 
 Test of GitHub Mac app.
 
+now im testing from the ipad 
+
 
 ### Contact me
 
