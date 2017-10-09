@@ -1,8 +1,9 @@
-—
+---
 layout: resume
 title: Resume
 permalink: /resume/
-—
+css: resume
+---
 
 # ![Me](/images/Me-logo.png) Peter Uchytil
 ## 9125 SW Ivory St - Beaverton, OR 97007
