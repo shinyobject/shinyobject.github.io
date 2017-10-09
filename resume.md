@@ -5,11 +5,13 @@ permalink: /resume/
 css: resume
 ---
 
-# ![Me](/images/Me-logo.png) Peter Uchytil
+# Peter Uchytil
 ## 9125 SW Ivory St - Beaverton, OR 97007
 ## 503-380-5562 - [peter@uchytil.com](mailto:peter@uchytil.com)
 
+<div id="intro">
 ### **User Experience Designer / Web Site/Application Developer** 23 years combined experience in User Experience Design, Web Site/Application Development, and Product Marketing. I'm a highly curious individual who gets excitied about product design and developing solutions for users in ways that bring delight. People shouldn't have to put up with crummy software. Whether I'm doing UX work or buliding applications, I want to make people's interactions with devices effortless and engaging.
+</div>
 
 #### Areas of Expertise
 
@@ -102,3 +104,4 @@ Washington University in St. Louis - B.S. Software Engineering, 1990
 
 * iOS & Mac application development
 * Node JS, REST API development
+* More JavaScript, CSS (Sass specificallY), and HTML

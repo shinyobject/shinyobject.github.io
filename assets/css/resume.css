@@ -1,1 +1,133 @@
-body { color: blue; }
+body { 
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+}
+
+#me h1 {
+	margin-bottom:0;
+	line-height: 1.2;
+	font-weight: normal;
+	font-size: 2em;
+}
+#me p {
+	text-align: center;
+	margin:0;
+}
+
+#intro {
+	border: 1px solid #000;
+	border-left:0;
+	border-right:0;
+	margin: 1em 0 1em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 1.2em;
+	font-weight: bold;
+	padding:0;
+	margin:0;
+}
+
+h2 a, h2 a:visited {
+	color: black;
+}
+
+#aoe {
+	border-bottom: 1px solid #000;
+		
+}
+
+#aoe h2 {
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+#aoe ul {
+	columns: 3;
+	padding-left: 1em;
+	column-gap: 2em;
+	column-fill: balance;
+}
+#aoe li {
+	break-inside: avoid-column;
+	margin-bottom: 0.7em;
+	font-size: 0.85em;
+}
+
+#employment h2 {
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 1.2em;
+	font-weight: bold;
+	margin-top: 2em;
+}
+
+#employment h3 {
+	font-weight: 200;
+	font-size: 2em;
+	border-top: 5px dashed #ccc;
+	margin-top: 2em;
+	padding-top: 2em;
+	line-height: 1.2;
+}
+
+#employment h2 + h3 {
+	border-top: none;
+	padding-top: 0;
+}
+
+#employment h4 {
+	font-weight: bold;
+	font-size: 1.1em;
+	margin-bottom:0;
+	line-height: 1.2;
+}
+
+#employment p {
+	margin-top:0;
+}
+
+#education {
+	border-top: 5px dashed #ccc;
+	padding-top: 3em;
+	margin-top: 3em;
+}
+#education h2 {
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+#skills {
+	border-top: 5px dashed #ccc;
+	padding-top: 3em;
+	margin-top: 3em;
+}
+
+#skills ul {
+	padding-left: 1em;
+}
+
+h3 {
+	font-weight: normal;
+	font-size: 0.9em;
+}
+
+h4 {
+	font-size: 0.9em;
+	text-transform: uppercase;
+	color: #000;
+}
+
+li {
+	font-size: 0.9em;
+}
