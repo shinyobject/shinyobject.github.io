@@ -1,0 +1,61 @@
+@import url(https://fonts.googleapis.com/icon?family=Material+Icons);
+body {
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  margin:0;
+  padding:0;
+}
+
+#main {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  height: 100vh;
+}
+
+#sidebar {
+  background: #ddd;
+  padding: 10px;
+  overflow: none;
+}
+
+#body {
+  padding-left: 20px; 
+  overflow: auto;
+}
+
+#body h2 a {
+  font-weight: normal;
+  text-decoration: none;
+  border-bottom: 1px solid #999;
+  padding-bottom: 2px;
+  color: #000;
+}
+
+
+ul {
+  list-style-type: none;
+  margin:0;
+  padding:0;
+}
+
+#resume {
+  display: flex;
+  vertical-align: text-bottom;
+}
+
+#resume p {
+  margin:5px 5px 0 0; 
+  
+}
+
+
+#resume li {
+  display: inline-block;
+  margin-right: 15px;
+}
+#resume li i {
+  display: inline-block;
+  vertical-align: text-bottom;
+}
+#resume a {
+  text-decoration: none;
+}
