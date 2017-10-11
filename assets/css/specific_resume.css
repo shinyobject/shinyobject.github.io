@@ -17,8 +17,8 @@ body {
   overflow: hidden;
   text-align: center;
 }
-.avatar2 {
-	width: 75px;
+#sidebar .avatar {
+	width: 125px;
 	margin:0 auto;
 }
 #sidebar ul li {
