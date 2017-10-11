@@ -14,12 +14,15 @@ body {
 #sidebar {
   background: #ddd;
   padding: 10px;
-  overflow: none;
+  overflow: hidden;
   text-align: center;
 }
 .avatar2 {
 	width: 75px;
 	margin:0 auto;
+}
+#sidebar ul li {
+	text-align: center;
 }
 
 #body {
@@ -71,6 +74,9 @@ ul {
 	margin-top: 25px;
 	border-top:1px solid #666;
 	padding-top: 25px;
+}
+#examples h2 + p + h2 {
+	border-top: 0;
 }
 
 h3 a {
