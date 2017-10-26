@@ -93,6 +93,7 @@ body {
 	margin-bottom: 50px;
 	padding-bottom: 5px;
 	border-bottom: 15px solid #ddd;
+	max-width: 800px;
 }
 
 #intro p {
