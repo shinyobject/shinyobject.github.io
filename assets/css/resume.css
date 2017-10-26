@@ -141,6 +141,30 @@ li {
 	font-size: 0.9em;
 }
 
+@media (max-width: 414px) {
+	#aoe h2 {
+		margin: 2em auto;
+	}
+
+	#aoe ul {
+		columns: 1;
+		list-style-type: disc;
+	}
+	#aoe li {
+		margin-bottom: 5px;
+	}
+	
+	#skills ul {
+		list-style-type: disc;
+		margin-left: 1em;
+	}
+	#skills li {
+		margin-bottom: 5px;
+	}
+
+
+}
+
 @media print {
 	#sidebar {
 		display: none;

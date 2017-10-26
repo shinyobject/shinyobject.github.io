@@ -75,3 +75,23 @@ margin-top: 0;
 .pagenav a:first-child {
 	margin-left: 0;
 }
+
+@media (max-width: 414px) {
+	#examples {
+		display: block;
+		}
+	#examples img {
+		margin-bottom: 15px;
+	}
+	.post h1 {
+		line-height: 1.0;
+		margin-bottom: 15px;
+	}
+	#aoe ul {
+		columns: 1;
+	}
+	#aoe li {
+		margin-bottom: 5px;
+	}
+	
+}
