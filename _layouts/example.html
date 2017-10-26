@@ -1,0 +1,41 @@
+---
+layout: default
+---
+
+<article class="post">
+  <h1>{{ page.title }}</h1>
+  <dl>
+  	<dt>Company</dt><dd>{{ page.company }} </dd>
+  	<dt>Role</dt><dd>{{ page.role }}</dd>
+  	<dt>Goal</dt><dd>{{ page.goal }}</dd>
+  </dl>
+  	
+
+  <div class="article">
+    {{ content }}
+    
+    {% if page.end_result %}
+    <h3>End result <span>{{ page.end_result }}</span></h3>
+    {% endif %}
+  </div>
+
+	<div class="pagenav">
+		{% if page.previous %}
+			<a href="{{ page.previous.url}}">Previous post </a>
+		{% endif %}
+		{% if page.previous and page.next %}
+		 | 
+		{% endif %}
+		{% if page.next %}
+			<a href="{{ page.next.url}}"> Next post </a>
+		{% endif %}
+		{% if page.next or page.previous %}
+		 |
+		{% endif %}	
+		<a href="{{ site.baseurl }}/"> Index</a>
+
+  <div class="date">
+    Written on {{ page.date | date: "%B %e, %Y" }}
+  </div>
+
+</article>

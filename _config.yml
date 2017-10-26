@@ -9,7 +9,13 @@ name: Peter Uchytil
 description: UX Design Professional - currently looking for work
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: images/Me-logo.png
+avatar: images/avatar2.png
+phone: 503-380-5562
+web: peteruchytil.com
+email: peter@uchytil.com
+em: peter@uchytil.com
+codepen: http://codepen.io/shinyobject
+linkedin: http://linkedin.com/in/peteruchytil
 
 #
 # Flags below are optional
@@ -18,19 +24,10 @@ timezone: America/Los Angeles
 
 # Includes an icon in the footer for each username you enter
 footer-links:
-  dribbble:
-  email: peter@uchytil.com
-  facebook:
-  flickr:
   github: shinyobject
   instagram: shinyobject
-  linkedin:
-  pinterest:
-  rss: # just type anything here for a working RSS icon
   twitter: shinyobject
-  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
-  youtube: # channel/<your_long_string> or user/<user-name>
-  googleplus: # anything in your profile username that comes after plus.google.com/
+
 
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts

@@ -1,4 +1,19 @@
+---
+layout: example
+title: Comparison of Detail Layouts
+list_image: 2017-10-24-detail-comparison-thm.png
+css: article
+
+company: DAT Solutions
+role: Lead UX Designer
+goal: Design the details page for an item in the DAT Trucker database
+excerpt: The DAT Trucker app includes a number of points of interest for truck drivers. In an update to the app, we wanted to improve the layout of the details page. 
+---
+
 # Comparison of Detail Layouts
+
+![Detail Comparison]({{site.baseurl}}/assets/images/2017-10-24-detail-comparison.jpg)
+
 
 This is a wireframe for the DAT Trucker mobile app. As always with DAT apps, the struggle is to get the information density as high as possible, but still being readable. In this case, the denser layout on the right felt really good. Everyone liked it, but when tested for scan-ability, it fared worse than the straight list. 
 

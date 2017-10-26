@@ -1,4 +1,16 @@
-# Get Me Home
+---
+layout: example
+title: Get Me Home concept design
+list_image: 2017-10-24-get-me-home-thm.png
+css: article
+
+company: DAT Solutions
+role: Lead UX Designer
+goal: Implement the "Get Me Home" feature for the mobile freight matching app
+excerpt: The concept of "Get Me Home" is straightforward, but the implementation continued to raise interesting quirks. 
+---
+
+![Get Me Home]({{site.baseurl}}/assets/images/2017-10-24-get-me-home.png)
 
 A driver typically commits to a one leg of a trip at a time. If a load from Portland is to be delivered to Chicago, the driver won’t look for a return load until they get close to Chicago. The market changes quickly enough that the best loads usually get taken the same day they are posted. It is not uncommon for a driver to take a load going somewhere they haven’t been. In the mobile app we wanted a simple way for a driver to do a search from wherever they currently are to home. Just like the “navigate me home” feature of any GPS app. 
 
