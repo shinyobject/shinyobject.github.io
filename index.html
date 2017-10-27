@@ -1,5 +1,6 @@
 ---
 layout: default
+debugger: 
 ---
 <div id="front">
 <div id="intro">
@@ -8,6 +9,9 @@ layout: default
 <p>I will also write some regular blog articles on design and document some of my own projects to further illustrate my design skills. I hope you find something interesting here.</p>
 </div>
 
+{% if page.debugger %}
+	{% include debug.html %}
+{% endif %}
 <div class="posts">
   {% for post in site.posts %}
     <article class="post">
