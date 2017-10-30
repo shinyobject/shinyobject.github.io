@@ -3,7 +3,22 @@
 .post {
 	max-width: 800px;
 }
+.post blockquote {
+	font-size: 18px;
+	line-height: 1.4;
+	margin: 0.8em 0.8em 1.8em 0.8em;
+}
+.post blockquote p:first-child {
+	margin-top:0;
+}
 
+.post a {
+	border-bottom: 1px solid #4183C4;
+	padding-bottom: 2px;
+}
+.post a:hover {
+	border-bottom-color: rgba(0,0,0,0);
+}
 dl {
   display: grid;
   grid-template-columns: 100px 1fr;
@@ -71,7 +86,7 @@ margin-top: 0;
 .pagenav a {
 	margin-right:10px;
 	margin-left: 10px;
-	border-bottom:0;
+	border-bottom: 0;
 }
 .pagenav a:first-child {
 	margin-left: 0;
@@ -88,6 +103,11 @@ margin-top: 0;
 		line-height: 1.0;
 		margin-bottom: 15px;
 	}
-
+	#aoe ul {
+		columns: 1;
+	}
+	#aoe li {
+		margin-bottom: 5px;
+	}
 	
 }

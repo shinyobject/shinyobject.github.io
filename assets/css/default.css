@@ -119,6 +119,8 @@ body {
 	text-decoration: none;
 
 	}
+	
+
 .inline {
 	float: left;
 	margin: 0 15px 15px 0;
@@ -131,6 +133,9 @@ body {
 	grid-template-columns: 200px 1fr;
 	grid-column-gap: 20px;
 }
+.entry.no_image {
+	grid-template-columns: 1fr;
+}
 .entry img {
 	width: 198px;
 	border: 1px solid #333;
@@ -140,6 +145,9 @@ body {
 .entry p {
 	margin:0;
 	max-width: 600px;
+}
+.entry.no_image p {
+	max-width: 800px;
 }
 .entry .read-more {
 	margin-top: 15px;
