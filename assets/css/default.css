@@ -90,7 +90,7 @@ body {
 }
 
 #intro {
-	margin-bottom: 50px;
+	margin-bottom: 25px;
 	padding-bottom: 5px;
 	border-bottom: 15px solid #ddd;
 	max-width: 800px;
@@ -129,6 +129,25 @@ body {
 	color: #999;
 	text-transform: uppercase;
 }	
+.blog {
+	display: none;
+}
+.portfolio {
+	display: none;
+}
+#blog, #portfolio {
+	margin-left: 15px;
+	margin-right: 5px; 
+}
+#blog:checked ~ .blog {
+	display: block;
+}
+#portfolio:checked ~ .portfolio {
+	display: block;
+}
+article:first-of-type {
+	margin-top: 50px;
+}
 
 .inline {
 	float: left;

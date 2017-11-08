@@ -12,7 +12,15 @@ debugger:
 {% if page.debugger %}
 	{% include debug.html %}
 {% endif %}
+
 <div class="posts">
+
+
+
+	Show: <input type="checkbox" checked id="blog" /><label for="blog">Blog posts</label><input type="checkbox" checked id="portfolio"/><label for="portfolio">Portfolio</label>
+
+
+
   {% for post in site.posts %}
     <article class="post {{post.category}}">
 
