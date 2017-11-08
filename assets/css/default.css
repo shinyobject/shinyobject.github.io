@@ -145,7 +145,8 @@ body {
 #portfolio:checked ~ .portfolio {
 	display: block;
 }
-article:first-of-type {
+
+.break {
 	margin-top: 50px;
 }
 
