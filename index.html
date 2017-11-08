@@ -27,7 +27,7 @@ debugger:
 	  
       {% endif %}
       	<div>
-        	<p>{{ post.excerpt || markdownify }}</p>
+        	<p>{{ post.excerpt | markdownify }}</p>
         	<p class="read-more"><a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a></p>
         </div>
       </div>
