@@ -113,13 +113,22 @@ body {
 .post h1 {
 	font-family: "Roboto Condensed";
 	font-weight: 300;
-	margin: 20px 0 5px;
+	margin: 20px 0 0;
+	line-height: 1.1;
 }
 .post h1 a {
 	text-decoration: none;
 
 	}
-	
+
+.post h2 {
+	margin:0 0 10px;
+	font-size: 1em;
+	font-weight: normal;
+	font-family: "Roboto Condensed";
+	color: #999;
+	text-transform: uppercase;
+}	
 
 .inline {
 	float: left;

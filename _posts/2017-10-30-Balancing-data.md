@@ -1,5 +1,6 @@
 ---
 layout: blog
+category: blog
 title: Balancing Data with Intuition
 list_image: 
 css: blog

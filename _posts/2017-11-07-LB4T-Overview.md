@@ -1,5 +1,6 @@
 ---
 layout: example
+category: portfolio
 title: Overview of the DAT Loadboard for Truckers Application
 list_image: 2017-11-07-LB4T-Overview-thm.png
 css: article
@@ -13,7 +14,7 @@ end_result:
 
 ![DAT Loadboard for Truckers App Overview]({{site.baseurl}}/assets/images/2017-11-07-LB4T-Overview-thm.png)
 
-I created this chart in Sketch to help the product owner (and the team) understand the scope of a mobile app project. We were in the middle of the project and it was difficult to visualize the work done and the work left to do. The product owner really liked this way of looking at the development. 
+I created this chart in Sketch to help the product owner (and the team) understand the scope of the project. We were in the middle of the project and it was difficult to visualize the work done and the work left to do. The product owner really liked this way of looking at the development. 
 
 I view this chart as a success, but also a frustration. It takes a lot of work to build a chart like this and maintain it. There aren't tools yet that give you this kind of visualization and organization. Ideally I would like something like this: 
 

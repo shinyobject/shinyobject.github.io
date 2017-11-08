@@ -1,5 +1,6 @@
 ---
 layout: blog
+category: blog
 title: Automatic Layer Naming in Pixelmator Pro
 list_image: 2017-11-08-Pixelmator-Pro-thm.png
 css: blog

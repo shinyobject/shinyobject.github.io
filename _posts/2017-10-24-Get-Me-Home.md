@@ -1,5 +1,6 @@
 ---
 layout: example
+category: portfolio
 title: Get Me Home concept design
 list_image: 2017-10-24-get-me-home-thm.png
 css: article

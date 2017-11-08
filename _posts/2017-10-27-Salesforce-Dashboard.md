@@ -1,5 +1,6 @@
 ---
 layout: example
+category: portfolio
 title: Custom Salesforce dashboard for tracking revenue
 list_image: 2017-10-27-Salesforce-Dashboard-900-thm.png
 css: article

@@ -1,5 +1,6 @@
 ---
 layout: example
+category: portfolio
 title: Comparison of Detail Layouts
 list_image: 2017-10-24-detail-comparison-thm.png
 css: article
