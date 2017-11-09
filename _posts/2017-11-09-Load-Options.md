@@ -1,5 +1,6 @@
 ---
 layout: example
+category: portfolio
 title: Mobile Visualization for Load Options
 list_image: 2017-11-09-Load-Options-thm.png
 css: article
