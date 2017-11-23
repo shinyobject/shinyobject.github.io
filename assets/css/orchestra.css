@@ -1,0 +1,129 @@
+body {
+	margin: 10px;
+}
+
+a {
+  margin:0;
+  padding:0;
+}
+
+
+h3 {
+  clear: both;
+  margin-top: 50px;
+}
+
+.pages {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+}
+
+.pages img {
+  width: 175px;
+  border: 1px solid #000;
+  margin-right: -1px;
+  margin-bottom: 10px;
+}
+.pages img:first-child {
+	break-after: always;
+}
+.pages img:nth-child(2) {
+	clear:left;
+}
+.pages .break {
+	display: block;
+	width: 100%;
+}
+.booklet {
+  clear: both;
+}
+
+
+
+@media( max-width: 1024px ) {
+  .pages img {
+    width: 250px;
+  }
+}
+
+
+@media( max-width: 768px ) {
+  .pages img {
+    width: 187px;
+  }
+}
+
+
+@media( max-width: 736px ) {
+  .pages img {
+    width: 179px;
+  }
+}
+
+
+@media( max-width: 694px ) {
+  .pages img {
+    width: 168px;
+  }
+}
+
+
+@media( max-width: 507px ) {
+  .pages img {
+    width: 242px;
+  }
+}
+
+@media( max-width: 438px ) {
+  .pages img {
+    width: 209px;
+  }
+}
+
+
+@media( max-width: 414px ) {
+  .pages img {
+    width: 197px;
+  }
+}
+
+
+@media( max-width: 320px ) {
+  .pages img {
+    width: 150px;
+  }
+}
+
+
+#zoom{
+  display: none;
+}
+#zoom.show {
+  display: block;
+}
+#zoom h2 {
+	background: #aaa;
+	font-size: 16px;
+	font-weight: normal;
+	text-align: center;
+	margin:0;
+	padding: 5px;
+}
+#zoom img {
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,78 @@
+---
+layout: specific_resume
+title: Orchestra Software Resume for Peter Uchytil
+
+css: orchestra
+---
+
+
+<div id="zoom"><h2>Tap to close</h2><p></p></div>
+<div id="main">
+<h2>Wine Tasting Brochures</h2>
+<p>A good friend of mine hosts private tastings.  I make the brochures for the events. I'm putting these here to show that I have an above average interest in the wine industry (beer too, but we don't do regular beer tastings). I don't hold these up as great graphic design. I usually have to do them in only a couple days in order to get them to the printer. I used to print them myself, but nowadays I use Blurb. I used to do the layout in InDesign, but when the Creative Cloud subscription got too expensive for casual use, I moved to Pages on the Mac.</p>
+<p>There's definitely flaws in the layouts, but they only needed to be "good enough". I also tried to keep the type on the larger side because most of the attendees are older and tiny print won't be readable.</p>
+
+<p>Click/tap an image to zoom. Click/tap again to close.</p>
+
+
+
+<div class="booklet">
+<h3>August 2006 - Wines of the Southern Hemisphere</h3>
+    <p><a href="#">Link to PDF 128 MB</a></p>
+    <p></p>
+
+  <div class="pages">
+<img src="2006-08-Southern/2006-08-Southern-1-2.jpeg"><div class="break">
+
+<!--<h3>August 2006 - Wines of the Southern Hemisphere</h3>
+    <p><a href="#">Link to PDF 128 MB</a></p>--></div><img src="2006-08-Southern/2006-08-Southern-2-2.jpeg"><img src="2006-08-Southern/2006-08-Southern-3-2.jpeg"><img src="2006-08-Southern/2006-08-Southern-4-2.jpeg"><img src="2006-08-Southern/2006-08-Southern-5-2.jpeg"><img src="2006-08-Southern/2006-08-Southern-6-2.jpeg"><img src="2006-08-Southern/2006-08-Southern-7-2.jpeg"><img src="2006-08-Southern/2006-08-Southern-8-2.jpeg"><img src="2006-08-Southern/2006-08-Southern-9-2.jpeg"><img src="2006-08-Southern/2006-08-Southern-10-2.jpeg"><img src="2006-08-Southern/2006-08-Southern-11-2.jpeg"><img src="2006-08-Southern/2006-08-Southern-12-2.jpeg"><img src="2006-08-Southern/2006-08-Southern-13-2.jpeg"><img src="2006-08-Southern/2006-08-Southern-14-2.jpeg"><img src="2006-08-Southern/2006-08-Southern-15-2.jpeg"><img src="2006-08-Southern/2006-08-Southern-16-2.jpeg">
+
+</div>
+</div>
+
+
+
+
+<div class="booklet">
+<h3>April 2007 - Oregon Pinot Noir</h3>
+    <p><a href="#">Link to PDF 128 MB</a></p>
+    <p></p>
+    <div class="pages">
+
+     <img src="2007-04-Pinot/2007-04-Pinot-1-2.jpeg"><div class="break"></div><img src="2007-04-Pinot/2007-04-Pinot-2-2.jpeg"><img src="2007-04-Pinot/2007-04-Pinot-3-2.jpeg"><img src="2007-04-Pinot/2007-04-Pinot-4-2.jpeg"><img src="2007-04-Pinot/2007-04-Pinot-5-2.jpeg"><img src="2007-04-Pinot/2007-04-Pinot-6-2.jpeg"><img src="2007-04-Pinot/2007-04-Pinot-7-2.jpeg"><img src="2007-04-Pinot/2007-04-Pinot-8-2.jpeg">
+    </div>
+</div>
+
+<div class="booklet">
+<h3>January 2008 - Piedmont</h3>
+    <p><a href="#">Link to PDF 128 MB</a></p>
+    <p></p>
+
+  <div class="pages">
+
+ <img src="2008-01-Piedmont/2008-01-Piedmont-1-2.jpeg"><div class="break"></div><img src="2008-01-Piedmont/2008-01-Piedmont-2-2.jpeg"><img src="2008-01-Piedmont/2008-01-Piedmont-3-2.jpeg"><img src="2008-01-Piedmont/2008-01-Piedmont-4-2.jpeg"><img src="2008-01-Piedmont/2008-01-Piedmont-5-2.jpeg"><img src="2008-01-Piedmont/2008-01-Piedmont-6-2.jpeg"><img src="2008-01-Piedmont/2008-01-Piedmont-7-2.jpeg"><img src="2008-01-Piedmont/2008-01-Piedmont-8-2.jpeg"><img src="2008-01-Piedmont/2008-01-Piedmont-9-2.jpeg"><img src="2008-01-Piedmont/2008-01-Piedmont-10-2.jpeg"><img src="2008-01-Piedmont/2008-01-Piedmont-11-2.jpeg"><img src="2008-01-Piedmont/2008-01-Piedmont-12-2.jpeg">
+ 
+</div>
+</div>
+
+
+
+<script>
+var scrollTop = 0;
+
+document.body.addEventListener("click",function(event) {
+console.log(event.target.parentNode);
+  if( event.target.parentNode.parentNode.classList.contains("show")) {
+    event.target.parentNode.parentNode.classList.remove("show");
+    document.querySelector("#main").style.display = "block";
+    window.scrollTo(0,scrollTop);
+  } else if( event.target.tagName == "IMG") {
+
+    scrollTop = window.pageYOffset;
+    document.querySelector("#zoom p").innerHTML = '<img src="' + event.target.currentSrc + '">';
+    document.getElementById("zoom").style.top = scrollTop;
+    document.getElementById("zoom").classList.add("show");
+    document.getElementById("main").style.display = "none";
+    window.scrollTo(0,0);
+  }
+});</script>
