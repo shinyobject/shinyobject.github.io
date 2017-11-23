@@ -48,6 +48,14 @@ h3 {
 }
 
 
+@media( max-width: 800px ) {
+  .pages img {
+    width: 195px;
+  }
+}
+
+
+
 @media( max-width: 768px ) {
   .pages img {
     width: 187px;
