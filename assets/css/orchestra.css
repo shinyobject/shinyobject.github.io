@@ -39,11 +39,23 @@ h3 {
   clear: both;
 }
 
+@media( max-width: 1366px ) {
+  .pages img {
+    width: 225px;
+  }
+}
 
 
 @media( max-width: 1024px ) {
   .pages img {
     width: 250px;
+  }
+}
+
+
+@media( max-width: 981px ) {
+  .pages img {
+    width: 240px;
   }
 }
 
@@ -76,6 +88,19 @@ h3 {
   }
 }
 
+@media( max-width: 678px ) {
+  .pages img {
+    width: 165px;
+  }
+}
+
+@media( max-width: 639px ) {
+  .pages img {
+    width: 310px;
+  }
+}
+
+
 
 @media( max-width: 507px ) {
   .pages img {
@@ -93,6 +118,12 @@ h3 {
 @media( max-width: 414px ) {
   .pages img {
     width: 197px;
+  }
+}
+
+@media( max-width: 375px ) {
+  .pages img {
+    width: 177px;
   }
 }
 
