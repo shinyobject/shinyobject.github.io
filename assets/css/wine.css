@@ -36,6 +36,9 @@ h3 {
   margin-top:50px;
 }
 
+/* Quick and dirty media queries for various Apple devices, 
+   which hopefully also covers other phones and tablets */
+
 
 @media( min-width: 320px ) { 
 	.pages img { width: calc(100% / 2); } 
